@@ -1,34 +1,62 @@
-/*////////////////////////
-    Table of Contents
-    1. Global Styles
-    2. Typography
-    3. Layout
-        3.1 Reusables
-        3.2 Other
-    4. Areas
-        4.1 Header
-        4.2 Introduction
-        etc.
-    5. Media Queries
-////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&display=swap');
 
-/* ------------------------------- 1. Global Styles -------------------------------- */
-
-/* ------------------------------- 2. Typography ----------------------------------- */
-
-/* ------------------------------- 3. Layout --------------------------------------- */
-
-/* --------------- 3.1 Reusables ----------------------- */
-
-/* --------------- 3.2 Other --------------------------- */
-
-/* ------------------------------- 4. Areas ---------------------------------------- */
-
-/* --------------- 4.1 Header ------------------------- */
-
-/* --------------- 4.2 Introduction ------------------- */
-
-/* ------------------------------- 5. Media Queries -------------------------------- */
-body {
-    background-color: skyblue;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #4B49E8;
+    height: 500px;
+    color: #F2F0FF;
+    position: relative;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+ul li {
+    list-style: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 2rem;
+    align-items: center;
+}
+h1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: #ED4385;
+    color: #F2F0FF;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0 0 5px black;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+   position: absolute;
+    left: 925px;
+    bottom: 0px;
+}
+/*------------------------body------------------------------------------------------------------------------*/
