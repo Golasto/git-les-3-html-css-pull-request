@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
@@ -14,14 +14,122 @@
     </ul>
 </nav>
     <div class="pagina-header">
-        <h1>Your website is an investment in the <span style="display: block">success of your business.</span></h1>
+        <h1 class="title-header">Your website is an investment in the <span style="display: block">success of your business.</span></h1>
         <h3>We are here to help you succeed.</h3>
-        <button type="button">LET'S WORK TOGETHER</button>
+        <button type="button">Let's work together</button>
     </div>
-    <img src="assets/squiggle_line_stripe.svg" alt="lijntje">
+    <img class="lijntje" src="assets/squiggle_line_stripe.svg" alt="lijntje">
 
 </header>
-<body>
 
+<body>
+<main>
+    <div class="info-pagina">
+        <h2 class="info-tekst">Rekupe is a digital agency in Los Angeles.</h2>
+        <h2 class="info-tekst"> We use strategic UX, SEO optimization and beautiful<span style="display: block">visual designs to help your business grow.</span></h2>
+        <h2 class="info-tekst">We see every project as a fresh opportunity, pushing<span style="display: block">ourselves to create new digital experiences.</span></h2>
+        <p class="question-link">Have a question?&nbsp;<a class="click-here" href="#">Click here&nbsp;</a>to contact us!</p>
+    </div>
+    <section class="foto-pagina">
+    <article class="rolling">
+        <div class="rolling-div">
+            <h2>Rolling Stone</h2>
+            <span>
+            <img src="assets/squiggle_line.svg" alt="paars-lijn">
+            </span>
+            <p class="rol-tekst">You know Rolling Stone. It’s the definitive<span style="display: block">voice in music, politics and culture. It’s a </span>global icon.</p>
+            <a class="project-link" href="#">view project</a>
+        </div>
+        <span>
+        <img class="stone-img" src="/assets/work-image-01.jpeg" alt="rolling-stones">
+        </span>
+    </article>
+
+    <article class="variety">
+        <div class="variety-div">
+            <h2>Variety</h2>
+            <span>
+            <img src="assets/squiggle_line.svg" alt="paars-lijn">
+            </span>
+            <p class="rol-tekst">Variety is an industry leader for breaking<span style="display: block">entertainment news, reviews and box</span> office results with archive of content<span style="display: block">dating back to 1905. Worth</span></p>
+            <a class="project-link" href="#">view project</a>
+        </div>
+        <span>
+        <img class="variety-img" src="/assets/work-image-02.jpeg" alt="variety-work">
+        </span>
+    </article>
+
+    <article class="worth">
+        <div class="worth-div">
+            <h2>Rolling Stone</h2>
+            <span>
+            <img src="assets/squiggle_line.svg" alt="paars-lijn">
+            </span>
+            <p class="rol-tekst">You know Rolling Stone. It’s the definitive<span style="display: block">voice in music, politics and culture. It’s a </span>global icon.</p>
+            <a class="project-link" href="#">view project</a>
+        </div>
+        <span>
+        <img class="worth-img" src="/assets/work-image-03.jpeg" alt="worth-img">
+        </span>
+    </article>
+</section>
+
+<section>
+    <article class="flex-container">
+        <div>
+            <img class="icon" src="/assets/icon_web-design.svg" alt="icon-web">
+            <h2 class="icon-title">Web Design</h2>
+            <p> Good web design is how companies stand out from their competitors. High quality web design leads to increased user conversion and engagement. Through a proven web design process, we help clients launch websites and products that improve on their bottom line.</p>
+        </div>
+        <div>
+            <img class="icon" src="/assets/icon_web-development.svg" alt="icon-web-development">
+            <h2 class="icon-title">Web Development</h2>
+            <p> Modern websites need to be responsive and fully functional at all sizes. We develop all of our sites with a mobile first approach and ensure that our code quality is clean, organized and performant. Already have a design but need it developed? We’re here to help!</p>
+        </div>
+        <div>
+            <img class="icon" src="/assets/icon_ux.svg" alt="icon-web-development">
+            <h2 class="icon-title">User Experience</h2>
+            <p>In order to build successful products you have to understand the user. We create user personas, wireframes and prototypes to test with users. This allows us to gather feedback which helps to shape the product and can quickly eliminate potential risks – saving you time and money.</p>
+        </div>
+    </article>
+    <article class="flex-container-2">
+        <div>
+            <img class="icon" src="/assets/icon_graphic-design.svg" alt="icon-web">
+            <h2 class="icon-title">Logo Design + Branding</h2>
+            <p> Nike, Apple, Coca-Cola, Starbucks. What do all of these brands have in common? Easily recognizable logos and brand identity. The best brands stand out from the crowd by having a clear and unique point of view. We will work with you to understand your vision and help create a unique brand identity and style guide for your company.</p>
+        </div>
+        <div>
+            <img class="icon" src="/assets/icon_seo.svg" alt="icon-web">
+            <h2 class="icon-title">SEO</h2>
+            <p>Do you want your site to rank higher in search results? Google is constantly changing their algorithms for how they rank pages. Don’t worry about constantly playing catch-up. We will make sure your website it optimized, providing you the best opportunities for organic search exposure.</p>
+        </div>
+        <div>
+            <img class="icon" src="/assets/icon_copywriting.svg" alt="icon-web">
+            <h2 class="icon-title">Copy Writing</h2>
+            <p>Brand messaging needs to be clear, direct and easy to understand to be effective. A unique tone of voice will help you stand out from the crowd and build brand loyalty. We work with you to establish your brand bible and ensure your messaging is focused and targeted.</p>
+        </div>
+    </article>
+</section>
+
+    <section class="form-background">
+
+        <div class="form">
+            <h1 class="form-title">Let's work together</h1>
+            <p class="form-tekst">Have a question? Need a quote? Let us know!</p>
+            <form>
+                <label for="fname">Name</label>
+                <input class="input" type="text" id="fname" placeholder="Name">
+                <label for="femail">Email</label>
+                <input class="input" type="text" id="femail" placeholder="Email">
+                <label for="fmessage">Message</label>
+                <input class="message" type="text" id="fmessage" placeholder="Message">
+            </form>
+            <button class="send" type="button">send</button>
+        </div>
+    </section>
+</main>
 </body>
+<footer>
+    <p>Business website opdracht © NOVI Hogeschool 2022</p>
+</footer>
 </html>
